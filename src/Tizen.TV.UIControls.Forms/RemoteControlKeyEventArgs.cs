@@ -15,23 +15,48 @@
  */
 
 using System;
-using System.Collections.Generic;
 using System.Text;
+using Xamarin.Forms;
 
 namespace Tizen.TV.UIControls.Forms
 {
+    /// <summary>
+    /// Arguments for the event that is raised when a remote control key is pressed or released.
+    /// </summary>
     public class RemoteControlKeyEventArgs : EventArgs
     {
-        public RemoteControlKeyEventArgs(RemoteControlKeyTypes keyType, RemoteControlKeyNames keyName)
+        // Constructs a new RemoteControlKeyEventArgs object for a key type and a key name.
+        public RemoteControlKeyEventArgs(VisualElement sender, RemoteControlKeyTypes keyType, RemoteControlKeyNames keyName, string platformKeyName)
         {
+            Sender = sender;
             KeyType = keyType;
             KeyName = keyName;
+            PlatformKeyName = platformKeyName;
         }
 
+        /// <summary>
+        /// The sender of a remote control key.
+        /// </summary>
+        public VisualElement Sender { get; }
+
+        /// <summary>
+        /// The type of a remote control key.
+        /// </summary>
         public RemoteControlKeyTypes KeyType { get; }
 
+        /// <summary>
+        /// The name of a remote control key.
+        /// </summary>
         public RemoteControlKeyNames KeyName { get; }
 
+        /// <summary>
+        /// The name of a platform key name.
+        /// </summary>
+        public string PlatformKeyName { get; }
+
+        /// <summary>
+        /// Gets or sets a value that indicates whether the remote control key event has already been handled.
+        /// </summary>
         public bool Handled { get; set; }
     }
 }
