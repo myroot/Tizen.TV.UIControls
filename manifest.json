@@ -1,0 +1,291 @@
+{
+  "homepages": [],
+  "source_base_path": "X:/works/git/github/Tizen.TV.UIControls/docs/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../guides/InputEvents.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/InputEvents.html",
+          "hash": "Q7VpaS/WWHtmkWCK+T9T2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../guides/MediaPlayer_Converter.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/MediaPlayer_Converter.html",
+          "hash": "22vz10WOKSLv5RKGnLznCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../guides/MediaPlayer_Introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/MediaPlayer_Introduction.html",
+          "hash": "4b5T79X9Iyx4j7z2VoaqJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../guides/Overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/Overview.html",
+          "hash": "6arJ3frwn/WL764fC96aKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../guides/RecycleItemsView_CustomEffect.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/RecycleItemsView_CustomEffect.html",
+          "hash": "/QlDI3V3INNWxuPS1XMG1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../guides/RecycleItemsView_Introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/RecycleItemsView_Introduction.html",
+          "hash": "miFhhdVVsNxDpcOFtYuuVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../guides/resources/RecycleItemsView_colums.gif",
+      "output": {
+        "resource": {
+          "relative_path": "guides/resources/RecycleItemsView_colums.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../guides/resources/RecycleItemsView_concept.png",
+      "output": {
+        "resource": {
+          "relative_path": "guides/resources/RecycleItemsView_concept.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../guides/resources/RecycleItemsView_footer.png",
+      "output": {
+        "resource": {
+          "relative_path": "guides/resources/RecycleItemsView_footer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../guides/resources/RecycleItemsView_footer2.png",
+      "output": {
+        "resource": {
+          "relative_path": "guides/resources/RecycleItemsView_footer2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../guides/resources/RecycleItemsView_img.gif",
+      "output": {
+        "resource": {
+          "relative_path": "guides/resources/RecycleItemsView_img.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../guides/resources/RecycleItemsView_layouting.png",
+      "output": {
+        "resource": {
+          "relative_path": "guides/resources/RecycleItemsView_layouting.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../guides/resources/mediaplayer_controls.png",
+      "output": {
+        "resource": {
+          "relative_path": "guides/resources/mediaplayer_controls.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../guides/resources/mediaplayer_state_diagram.png",
+      "output": {
+        "resource": {
+          "relative_path": "guides/resources/mediaplayer_state_diagram.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "../guides/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/toc.html",
+          "hash": "fpZGxgDF5L5YnkxQhlHIrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "JaSRdMXUmm39L2WFSdeQaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "I3GpruEaWDvi2Yq4M9cs9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "KdY//e2UWSH++GBmn36vXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
