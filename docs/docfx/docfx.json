@@ -46,7 +46,7 @@
       "_disableContribution": true,
       "_enableSearch": "true"
     },
-    "dest": ".site",
+    "dest": "..",
     "xref": ["https://developer.tizen.org/dev-guide/csapi/xrefmap.yml"],
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
