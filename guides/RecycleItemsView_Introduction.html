@@ -80,7 +80,7 @@
 <h1 id="recycleitemsview">RecycleItemsView</h1>
 
 <h2 id="introduction">Introduction</h2>
-<p> RecycleItemsView is a view that wish to take in a list of user objects and produce views for each of them to be displayed. Especially, it can be used when the data is displayed in the same view template. and it reuse the templated view when it out of sight</p>
+<p> <code>RecycleItemsView</code> is a view that takes in a list of user objects and produces views for each of them to be displayed. Especially, it can be used when the data is displayed in the same view template. It reuses the templated view when it is out of sight.</p>
 <h2 id="concept">Concept</h2>
 <p><img src="resources/RecycleItemsView_concept.png" alt="concept"></p>
 <h2 id="how-to-use">How to use</h2>
@@ -107,7 +107,7 @@
     })
 }),
 </code></pre><h3 id="xaml">XAML</h3>
-<pre><code class="lang-xaml">&lt;tvcontrols:RecycleItemsView ContentMargin=&quot;60&quot; ItemWidth=&quot;300&quot; ItemHeight=&quot;350&quot; Spacing=&quot;20&quot; ItemsSource=&quot;{Binding Items}&quot;&gt;
+<pre><code class="lang-xml">&lt;tvcontrols:RecycleItemsView ContentMargin=&quot;60&quot; ItemWidth=&quot;300&quot; ItemHeight=&quot;350&quot; Spacing=&quot;20&quot; ItemsSource=&quot;{Binding Items}&quot;&gt;
     &lt;tvcontrols:RecycleItemsView.ItemTemplate&gt;
         &lt;DataTemplate&gt;
             &lt;StackLayout BackgroundColor=&quot;{Binding Color}&quot;&gt;
@@ -119,17 +119,17 @@
 </code></pre><h2 id="properties-related-layouting">Properties related layouting</h2>
 <p><img src="resources/RecycleItemsView_layouting.png" alt="layouting"></p>
 <h3 id="item-width-and-height">Item width and height</h3>
-<p>All items in RecycleItemsView have the same width and height because it should be reused.</p>
+<p>All items in <code>RecycleItemsView</code> have the same width and height, because it should be reused.</p>
 <h2 id="multiple-columns">Multiple columns</h2>
-<p>You can display items on multiple lines. Use <code>ColumnCount</code> property to apply multiple columns
+<p>You can display items on multiple lines. Use <code>ColumnCount</code> property to apply multiple columns.
 <img src="resources/RecycleItemsView_colums.gif" alt="colums"></p>
 <h2 id="header-and-footer">Header and Footer</h2>
-<p> RecycleItemsView display items with same <code>DataTemplate</code>. if you want to use a special looks for first or last, you can use Header, Footer property</p>
+<p> <code>RecycleItemsView</code> displays items with a same <code>DataTemplate</code>. If you want to use special looks for first or last, you can use Header or Footer property.</p>
 <p><img src="resources/RecycleItemsView_footer.png" alt="footer">
 <img src="resources/RecycleItemsView_footer2.png" alt="footer2"></p>
-<p> The Header and Footer can be a data object that contain view model or a view instance.
- If Header or Footer is a View, it directly used for displaying header/footer. 
- If not, HeaderTemplate/FooterTemplate is used to make a view that used for displaying header/footer</p>
+<p> The Header and Footer can be data objects that contain a view model or a view instance.
+ If Header or Footer is a View, it is directly used for displaying header or footer.
+ If not, <code>HeaderTemplate</code> or <code>FooterTemplate</code> is used to make a view that is used for displaying header or footer.</p>
 <h2 id="related-links">Related Links</h2>
 <ul>
 <li><a href="https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/templates/data-templates">DataTemplate</a></li>

@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "X:/works/git/github/Tizen.TV.UIControls/docs/docfx",
+  "source_base_path": "/home/abyss/works/git/github/Tizen.TV.UIControls/docs/docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/InputEvents.html",
-          "hash": "Q7VpaS/WWHtmkWCK+T9T2w=="
+          "hash": "6TP2vUuvJrjetuvy0Q4X+g=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/MediaPlayer_Converter.html",
-          "hash": "22vz10WOKSLv5RKGnLznCA=="
+          "hash": "SmvDnCUj/Np5+ChmUTR1UA=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/MediaPlayer_Introduction.html",
-          "hash": "4b5T79X9Iyx4j7z2VoaqJQ=="
+          "hash": "ykXrWMvPGNNLTmbDuS3kPA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/Overview.html",
-          "hash": "6arJ3frwn/WL764fC96aKQ=="
+          "hash": "JRN/u/r94Mqwtgo+Dbu3RA=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/RecycleItemsView_CustomEffect.html",
-          "hash": "/QlDI3V3INNWxuPS1XMG1w=="
+          "hash": "rtKYnveed5wCCK/6uBHTXQ=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/RecycleItemsView_Introduction.html",
-          "hash": "miFhhdVVsNxDpcOFtYuuVQ=="
+          "hash": "6VtZM9Qqjcg5Ps7/N40JdA=="
         }
       },
       "is_incremental": false,
@@ -185,15 +185,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "JaSRdMXUmm39L2WFSdeQaQ=="
+          "hash": "qsBLkcjMPpjpP0LM2HdN4w=="
         }
       },
       "is_incremental": false,
@@ -211,15 +208,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "I3GpruEaWDvi2Yq4M9cs9g=="
+          "hash": "7SSUYE17D/3xzd9WWKUYFw=="
         }
       },
       "is_incremental": false,
@@ -231,6 +225,378 @@
       "output": {
         "resource": {
           "relative_path": "logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.BufferingProgressUpdatedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.BufferingProgressUpdatedEventArgs.html",
+          "hash": "cAjAjtEZRbtTCezg4Vaa4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.DisplayAspectMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.DisplayAspectMode.html",
+          "hash": "J0qjOFtqQ1Yb2LkIc4MCGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.EmbeddingControls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.EmbeddingControls.html",
+          "hash": "7aN4yfulEVW7nNgu5Iuc3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.FileMediaSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.FileMediaSource.html",
+          "hash": "WofOQbhvkplq3p2YKzKLug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.FileMediaSourceConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.FileMediaSourceConverter.html",
+          "hash": "Nbm75q/cZeO4nDddtuU40w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.IOverlayOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.IOverlayOutput.html",
+          "hash": "gzxEHMXNNZSBrWkry0Vfsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.IPlatformMediaPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.IPlatformMediaPlayer.html",
+          "hash": "3bOLBfdAsCbShu1RvghKhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.IRecycleItemsViewController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.IRecycleItemsViewController.html",
+          "hash": "S9PjAnkz8uT3yBpQwK5Qhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.IVideoOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.IVideoOutput.html",
+          "hash": "l1TQu9nPcpbjvuJE5kIyUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.InputEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.InputEvents.html",
+          "hash": "GykmDdIZkq1Z26WfvQXhXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.ItemRealizedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.ItemRealizedEventArgs.html",
+          "hash": "PYzH4bn+DOj9tOwt973m5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.ItemUnrealizedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.ItemUnrealizedEventArgs.html",
+          "hash": "2CbOCQ8gu4U2k7dybngl2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.MediaPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.MediaPlayer.html",
+          "hash": "d6UHlwXbOQ30t6m2Dy/RNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.MediaSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.MediaSource.html",
+          "hash": "pcusbM8+mWEi5X6z1WnBRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.MediaSourceConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.MediaSourceConverter.html",
+          "hash": "gs+E0m8yb+0JNuD6fTbY7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.MediaView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.MediaView.html",
+          "hash": "SqNHlNiwM9Bq3/VmBMCcLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.MillisecondToTextConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.MillisecondToTextConverter.html",
+          "hash": "64d2GTHEoseEcAPqolA0Yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.OverlayMediaView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.OverlayMediaView.html",
+          "hash": "uA+1oz+6z+5AHD+/W9ebBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.OverlayPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.OverlayPage.html",
+          "hash": "r599srdYWwiF2W807FitBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.PlaybackState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.PlaybackState.html",
+          "hash": "NePbh+jbEdc3iP6R071s7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.ProgressToBoundTextConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.ProgressToBoundTextConverter.html",
+          "hash": "liemb45a7pSTig7gwLIPNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.RecycleItemsView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.RecycleItemsView.html",
+          "hash": "NU+lbOzJ3QlLvrLKO+00fA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.RecycleItemsViewOrientation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.RecycleItemsViewOrientation.html",
+          "hash": "cEVDzihebPiuwdHUYjgnlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.RemoteControlKeyEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.RemoteControlKeyEventArgs.html",
+          "hash": "tmL0hpbJc7a4uWKLqRjCLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.RemoteControlKeyNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.RemoteControlKeyNames.html",
+          "hash": "Y7p+tB1LMdp0ZTek1Pn40g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.RemoteControlKeyTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.RemoteControlKeyTypes.html",
+          "hash": "YkqxRdKLr+atEnw8onvqNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.RemoteKeyHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.RemoteKeyHandler.html",
+          "hash": "iLLtJoVEzxK+Vv8QvsJydg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.UriMediaSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.UriMediaSource.html",
+          "hash": "yAimEyCpsd1LH62igTJtBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.VideoOuputType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.VideoOuputType.html",
+          "hash": "3+WwGHPxDI2IxsxQSs2m2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tizen.TV.UIControls.Forms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.TV.UIControls.Forms.html",
+          "hash": "2p2P5ifocTBnSWJW10dLDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "vOoYnvecI7c3az4e7Ws0cw=="
         }
       },
       "is_incremental": false,
@@ -262,13 +628,17 @@
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ResourceDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }

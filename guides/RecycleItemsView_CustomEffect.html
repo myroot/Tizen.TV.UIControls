@@ -78,21 +78,21 @@
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
 
-<p>RecycleItemsView is provide default focusing effect that is scaling to 1.2
-If want to change this behavior, you need to inherit RecycleItemsView and override <code>OnItemFocused</code> method</p>
-<pre><code class="lang-C#">   protected virtual void OnItemFocused(object data, View targetView, bool isFocused);
-</code></pre><p> When need to apply focusing effect, We call this method with focused view</p>
+<p><code>RecycleItemsView</code> provides a default focusing effect that is scaling to 1.2.
+If you want to change this behavior, you need to inherit <code>RecycleItemsView</code> and override <code>OnItemFocused</code> method.</p>
+<pre><code class="lang-C#">protected virtual void OnItemFocused(object data, View targetView, bool isFocused);
+</code></pre><p> When you need to apply the focusing effect, we call this method with the focused view.</p>
 <ul>
 <li><code>data</code> is a FocusedItem in ItemsSource</li>
-<li><code>targetView</code> is a realized view that created by <code>ItemTemplate</code></li>
-<li><code>isFocused</code> whether focus or not.</li>
+<li><code>targetView</code> is a realized view that is created by <code>ItemTemplate</code></li>
+<li><code>isFocused</code> is about whether focus or not.</li>
 </ul>
-<p>You need to implement <code>Focused</code> and <code>Unfocused</code> cases
-If not, all views will be shown as focused</p>
+<p>You need to implement <code>Focused</code> and <code>Unfocused</code> cases.
+If not, all views will be shown as focused.</p>
 <h2 id="focus-with-header-footer">Focus with header footer</h2>
-<p>Header/Footer also can get a focus and triggered OnItemFocused when focused. So, if you want know that focused view is header or not, compare data parameter with Header property</p>
+<p>Header/Footer also can get a focus and triggered <code>OnItemFocused</code> when focused. Therefore, if you want to know if a focused view is the header or not, compare the data parameter with Header property.</p>
 <h2 id="custom-fouse-effect-example">Custom Fouse Effect example</h2>
-<pre><code class="lang-xaml">&lt;local:MyRecycleItemsView ...&gt;
+<pre><code class="lang-xml">&lt;local:MyRecycleItemsView ...&gt;
   &lt;tvcontrols:RecycleItemsView.ItemTemplate&gt;
     &lt;DataTemplate&gt;
       &lt;AbsoluteLayout&gt;
@@ -132,9 +132,9 @@ If not, all views will be shown as focused</p>
                 animation.Commit(this, $&quot;Focused - {data.GetHashCode()}&quot;);
             }
         }
-</code></pre><p>When Item was focused, text area is grow up to 200px</p>
-<p>We can know a View type because it was created by ItemTemplate
-So, we can get a <code>StackLayout</code> object and make larger</p>
+</code></pre><p>When the Item is focused, text area will grow up to 200px.</p>
+<p>We are able to know a type of View, because it was created by <code>ItemTemplate</code>.
+So, we can get a <code>StackLayout</code> object and make it larger.</p>
 <p><img src="resources/RecycleItemsView_img.gif" alt="img"></p>
 </article>
           </div>

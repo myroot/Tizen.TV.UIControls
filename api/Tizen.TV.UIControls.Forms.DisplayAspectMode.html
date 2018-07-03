@@ -5,9 +5,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Problem definition </title>
+    <title>Enum DisplayAspectMode
+   </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Problem definition ">
+    <meta name="title" content="Enum DisplayAspectMode
+   ">
     <meta name="generator" content="docfx 2.37.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -76,48 +78,53 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="">
-<h2 id="problem-definition">Problem definition</h2>
-
-<ul>
-<li>MediaPlayer.Position is int value, but Progressbar.Progress is double value (0 to 1.0)</li>
-<li>Need duration to convert</li>
-</ul>
-<h3 id="create-a-custom-converter">Create a custom Converter</h3>
-<p> Implements <a href="https://developer.xamarin.com/api/type/Xamarin.Forms.IValueConverter/">Xamarin.Forms.IValueConverter</a></p>
-<pre><code class="lang-C#">public class PositionToProgressConverter : IValueConverter
-{
-    public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
-    {
-        return ((int)value / (double)(GetParameter(parameter)));
-    }
-    public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
-    {
-        return (int)((double)value * GetParameter(parameter));
-    }
-    int GetParameter(object parameter)
-    {
-        var duration = ((Tizen.TV.UIControls.Forms.MediaPlayer)parameter).Duration;
-        if (duration == 0)
-            duration = 1;
-        return duration;
-    }
-}
-</code></pre><p> Pass a MediaPlayer instance as the parameter</p>
-<h3 id="use-custom-converter-in-xaml">Use custom converter in Xaml</h3>
-<pre><code class="lang-xml">....
-
-    &lt;ContentPage.Resources&gt;
-        &lt;ResourceDictionary&gt;
-            &lt;local:PositionToProgressConverter x:Key=&quot;positionToProgress&quot;/&gt;
-        &lt;/ResourceDictionary&gt;
-    &lt;/ContentPage.Resources&gt;
-...
-
-    &lt;ProgressBar Progress=&quot;{Binding Source={x:Reference Player}, Path=Position, Converter={StaticResource positionToProgress}, ConverterParameter={x:Reference Player}}}&quot;/&gt;
-
-....
-</code></pre></article>
+            <article class="content wrap" id="_content" data-uid="Tizen.TV.UIControls.Forms.DisplayAspectMode">
+  
+  
+  <h1 id="Tizen_TV_UIControls_Forms_DisplayAspectMode" data-uid="Tizen.TV.UIControls.Forms.DisplayAspectMode" class="text-break">Enum DisplayAspectMode
+  </h1>
+  <div class="markdown level0 summary"><p>Enumerates values that define how a media content is displayed.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.TV.UIControls.Forms.html">Tizen.TV.UIControls.Forms</a></h6>
+  <h6><strong>Assembly</strong>: Tizen.TV.UIControls.Forms.dll</h6>
+  <h5 id="Tizen_TV_UIControls_Forms_DisplayAspectMode_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public enum DisplayAspectMode : int</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    <thead>
+    <tbody>
+      <tr>
+        <td id="Tizen_TV_UIControls_Forms_DisplayAspectMode_AspectFill">AspectFill</td>
+        <td><p>Scale the media content to fill the view.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Tizen_TV_UIControls_Forms_DisplayAspectMode_AspectFit">AspectFit</td>
+        <td><p>Scale the media content to fit the view.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Tizen_TV_UIControls_Forms_DisplayAspectMode_Fill">Fill</td>
+        <td><p>Scale the media content to so it exactly fills the view.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Tizen_TV_UIControls_Forms_DisplayAspectMode_OrignalSize">OrignalSize</td>
+        <td><p>The original size of the media content.</p>
+</td>
+      </tr>
+    </tbody>
+  </thead></thead></table>
+</article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
