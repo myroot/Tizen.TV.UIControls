@@ -19,7 +19,7 @@ The Tizen TV UIControls is a set of helpful extensions to the Xamarin Forms fram
              x:Name="rootPage">
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="Button (accesskey 1)" uicontrols:InputEvents.AccessKey="NUM1" Clicked="OnClicked" />
+            <Button Text="Button (accesskey 1)" uicontrols:InputEvents.AccessKey="NUM1" />
             <Label x:Name="Label1"/>
             <Label x:Name="Label2"/>
         </StackLayout>
